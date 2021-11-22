@@ -147,7 +147,7 @@ class ChartbrController extends Controller {
 			$cadds .= "['" . $val->cadd . "','Nasugbu'," . $val->cadds . "],";
 		}
 
-		return view('homepage_bm', compact('datas', 'gendercount', 'addresscount', 'cadds'));
+		return view('homepage_bm', compact('datas', 'gendercount', 'cadds'));
 	}
 
 }
