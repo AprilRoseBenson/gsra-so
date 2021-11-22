@@ -80,7 +80,7 @@ $female = ChartbrController::female();
         tree.draw(data, {
           minColor: '#f00',
           midColor: '#ddd',
-          maxColor: #0572EE',
+          maxColor: '#0572EE',
           headerHeight: 15,
           fontColor: 'black',
           showScale: true
