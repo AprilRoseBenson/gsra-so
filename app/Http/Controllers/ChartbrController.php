@@ -13,6 +13,7 @@ class ChartbrController extends Controller {
 	public static function totalnow() {
 		$user = Auth::user()->id;
 		$totnow = store_records::whereDate('time_in', Carbon::today())->where('StoreID', $user)->count();
+		
 		return $totnow;
 
 	}
