@@ -126,7 +126,7 @@ Route::get('/sp_password', 'spController@edit')->name('sp_password.edit');
 //Route::post('/forgotpassword/update', 'ForgotPasswordController@update')->name('forgotpassword.update');
 //Route::get('/forgotpassword/{forgotpassword}', 'ForgotPasswordController@edit')->name('forgotpassword.edit');
 //
-Route::post('update/forgotpassword', [App\Http\Controllers\ForgotPasswordController::class, 'update'])->name('forgotpassword');
-Route::get('edit/forgotpassword', [App\Http\Controllers\ForgotPasswordController::class, 'edit'])->name('forgotpassword');
+//Route::post('update/forgotpassword', [App\Http\Controllers\ForgotPasswordController::class, 'update'])->name('forgotpassword');
+//Route::get('edit/forgotpassword', [App\Http\Controllers\ForgotPasswordController::class, 'edit'])->name('forgotpassword');
 
 Route::get('/homepage_bm', [App\Http\Controllers\ChartbrController::class, 'barChart'])->name('homepage_bm');
