@@ -1,0 +1,11 @@
+<?php
+$mysqli = new mysqli("sql6.freemysqlhosting.net", "sql6452751", "Qq9N1k7q7i", "sql6452751");
+
+if(mysqli -> connect_errno) {
+	echo "Failed to Connect to MySQL: " .$mysqli -> connect_error;
+	exit();
+} else {
+	echo "Wahoo! Your database is connected";
+}
+
+?>
