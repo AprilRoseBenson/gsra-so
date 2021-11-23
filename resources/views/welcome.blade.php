@@ -75,9 +75,7 @@
                                     {{ __('Login') }}
                                      </button>
 
-                                     <div class="text-center">
-                                        <a class="small" href="">Forgot Password</a>
-                                        </div>
+                               
 
                                 </form>
                                 <hr>
